@@ -1,0 +1,38 @@
+{
+  "folders": [
+    {
+      "name": "KruSanta",
+      "path": "."
+    }
+  ],
+
+  "settings": {
+    "files.exclude": {
+      "**/node_modules": true
+    },
+
+    "createreactfoldercomponent.templateLanguage": "JavaScript",
+    "createreactfoldercomponent.javaScriptComponentTemplate": [
+      "import React from 'react'",
+      "import PropTypes from 'prop-types'",
+      "",
+      "export default function $COMPONENT_NAME({}) {",
+      "}",
+      "",
+      "$COMPONENT_NAME.propTypes = {}",
+      ""
+    ],
+    "createreactfoldercomponent.javaScriptStyledComponentTemplate": [
+      "import React from 'react'",
+      "import PropTypes from 'prop-types'",
+      "import './$STYLE_COMPONENT_FILENAME'",
+      "",
+      "export default function $COMPONENT_NAME({}) {",
+      "}",
+      "",
+      "$COMPONENT_NAME.propTypes = {}",
+      ""
+    ],
+    "createreactfoldercomponent.javaScriptStyleFileNameTemplate": "$STYLE_COMPONENT_NAME.css"
+  }
+}
